@@ -26,12 +26,13 @@
 | Column name                                  | Description                                                  | Data type |
 |----------------------------------------------|--------------------------------------------------------------|-----------|
 | Name                                         | The games name                                               | String    |
-| Year_of_Release - Year of the game's release | Platform of the games release (i.e. PC,PS4, etc.)            | Float     |
-| Genre -                                      | Genre of the game                                            | String    |
-| NA_Sales -                                   | Sales in North America (in millions)                         | Float     |
-| EU_Sales -                                   | Sales in Europe (in millions)                                | Float     |
-| JP_Sales -                                   | Sales in Japan (in millions)                                 | Float     |
-| Other_Sales -                                | Sales in the rest of the world (in millions)                 | Float     |
+| Platform                                     | Platform of the games release (i.e. PC,PS4, etc.)            | String    |
+| Year_of_Release                              | Year of the game's release                                   | Float     |
+| Genre                                        | Genre of the game                                            | String    |
+| NA_Sales                                     | Sales in North America (in millions)                         | Float     |
+| EU_Sales                                     | Sales in Europe (in millions)                                | Float     |
+| JP_Sales                                     | Sales in Japan (in millions)                                 | Float     |
+| Other_Sales                                  | Sales in the rest of the world (in millions)                 | Float     |
 | Critic_Score                                 | Review score of experts (maximum of 100)                     | Float     |
 | User_Score                                   | Review score of users (maximum of 100)                       | Float     |
 | Rating                                       | ESRB Rating (eg. Everyone, Everyone 10+, Teen, Mature, etc.) | String    |
