@@ -19,7 +19,21 @@
 - Test the hypotheses
 
 ## Data description
+- Source: Yandex provides the data which is extracted from [Kaggle](https://www.kaggle.com/gregorut/videogamesales).
 - The dataset contain info of: User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), ESRB rating categories and historical data on game sales are available from open sources.
+- Metadata
+| Column name                                  | Description                                                  | Data type |
+|----------------------------------------------|--------------------------------------------------------------|-----------|
+| Name                                         | The games name                                               | String    |
+| Year_of_Release - Year of the game's release | Platform of the games release (i.e. PC,PS4, etc.)            | Float     |
+| Genre -                                      | Genre of the game                                            | String    |
+| NA_Sales -                                   | Sales in North America (in millions)                         | Float     |
+| EU_Sales -                                   | Sales in Europe (in millions)                                | Float     |
+| JP_Sales -                                   | Sales in Japan (in millions)                                 | Float     |
+| Other_Sales -                                | Sales in the rest of the world (in millions)                 | Float     |
+| Critic_Score                                 | Review score of experts (maximum of 100)                     | Float     |
+| User_Score                                   | Review score of users (maximum of 100)                       | Float     |
+| Rating                                       | ESRB Rating (eg. Everyone, Everyone 10+, Teen, Mature, etc.) | String    |
 
 ## Conclusions
 - It generally takes around 4-6 years for a new platforms to reach its peak in sale, and it takes around 5-7 years for an old platform to fade, i.e. reach its lowest in sale (approximately zero sales).
