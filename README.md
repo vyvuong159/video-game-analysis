@@ -21,7 +21,7 @@
 ## Data description
 - Source: Yandex provides the data which is extracted from [Kaggle](https://www.kaggle.com/gregorut/videogamesales).
 - The dataset contain info of: User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), ESRB rating categories and historical data on game sales are available from open sources.
-- Metadata
+- Metadata /n
 | Column name                                  | Description                                                  | Data type |
 |----------------------------------------------|--------------------------------------------------------------|-----------|
 | Name                                         | The games name                                               | String    |
